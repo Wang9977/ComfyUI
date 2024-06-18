@@ -1,0 +1,77 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-06-17 18:09] ** ComfyUI startup time: 2024-06-17 18:09:44.991660
+[2024-06-17 18:09] ** Platform: Darwin
+[2024-06-17 18:09] ** Python version: 3.8.8 (default, Apr 13 2021, 12:59:45) 
+[Clang 10.0.0 ]
+[2024-06-17 18:09] ** Python executable: /Users/wangyuan198/Downloads/anaconda3/bin/python
+[2024-06-17 18:09] ** Log path: /Users/wangyuan198/Documents/study/ml-in-fe/ComfyUI/comfyui.log
+[2024-06-17 18:09] 
+Prestartup times for custom nodes:
+[2024-06-17 18:09]    1.3 seconds: /Users/wangyuan198/Documents/study/ml-in-fe/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-17 18:09] 
+Total VRAM 16384 MB, total RAM 16384 MB
+[2024-06-17 18:09] pytorch version: 2.2.2
+[2024-06-17 18:09] Forcing FP16.
+[2024-06-17 18:09] Set vram state to: SHARED
+[2024-06-17 18:09] Device: mps
+[2024-06-17 18:09] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-06-17 18:09] ### Loading: ComfyUI-Manager (V2.38.1)
+[2024-06-17 18:09] ### ComfyUI Revision: 2261 [6425252c] | Released on '2024-06-16'
+[2024-06-17 18:09] Traceback (most recent call last):
+  File "/Users/wangyuan198/Documents/study/ml-in-fe/ComfyUI/nodes.py", line 1906, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 915, in get_code
+  File "<frozen importlib._bootstrap_external>", line 972, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wangyuan198/Documents/study/ml-in-fe/ComfyUI/custom_nodes/.ipynb_checkpoints/__init__.py'
+
+[2024-06-17 18:09] Cannot import /Users/wangyuan198/Documents/study/ml-in-fe/ComfyUI/custom_nodes/.ipynb_checkpoints module for custom nodes: [Errno 2] No such file or directory: '/Users/wangyuan198/Documents/study/ml-in-fe/ComfyUI/custom_nodes/.ipynb_checkpoints/__init__.py'
+[2024-06-17 18:09] 
+Import times for custom nodes:
+[2024-06-17 18:09]    0.0 seconds: /Users/wangyuan198/Documents/study/ml-in-fe/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-06-17 18:09]    0.0 seconds (IMPORT FAILED): /Users/wangyuan198/Documents/study/ml-in-fe/ComfyUI/custom_nodes/.ipynb_checkpoints
+[2024-06-17 18:09]    0.0 seconds: /Users/wangyuan198/Documents/study/ml-in-fe/ComfyUI/custom_nodes/AIGODLIKE-COMFYUI-TRANSLATION
+[2024-06-17 18:09]    0.1 seconds: /Users/wangyuan198/Documents/study/ml-in-fe/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-17 18:09] 
+[2024-06-17 18:09] Starting server
+
+[2024-06-17 18:09] To see the GUI go to: http://127.0.0.1:8188
+[2024-06-17 18:09] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-06-17 18:09] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-06-17 18:09] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-06-17 18:09] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-06-17 18:09] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-06-17 18:09] FETCH DATA from: /Users/wangyuan198/Documents/study/ml-in-fe/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
+[2024-06-17 18:10] got prompt
+[2024-06-17 18:10] model_type EPS
+[2024-06-17 18:10] Using split attention in VAE
+[2024-06-17 18:10] Using split attention in VAE
+[2024-06-17 18:10] Requested to load SDXLClipModel
+[2024-06-17 18:10] Loading 1 new model
+[2024-06-17 18:10] Requested to load AutoencoderKL
+[2024-06-17 18:10] Loading 1 new model
+[2024-06-17 18:10] Requested to load SDXL
+[2024-06-17 18:10] Loading 1 new model
+[2024-06-17 18:12] 100%|██████████████████████████████████████████████████████████████████████████████████████████| 10/10 [01:45<00:00, 10.33s/it]100%|██████████████████████████████████████████████████████████████████████████████████████████| 10/10 [01:45<00:00, 10.56s/it]
+[2024-06-17 18:12] Requested to load AutoencoderKL
+[2024-06-17 18:12] Loading 1 new model
+[2024-06-17 18:12] Prompt executed in 149.85 seconds
+[2024-06-17 18:13] got prompt
+[2024-06-17 18:13] Requested to load SDXL
+[2024-06-17 18:13] Loading 1 new model
+[2024-06-17 18:17] 100%|██████████████████████████████████████████████████████████████████████████████████████████| 10/10 [03:52<00:00, 22.90s/it]100%|██████████████████████████████████████████████████████████████████████████████████████████| 10/10 [03:52<00:00, 23.30s/it]
+[2024-06-17 18:17] Requested to load AutoencoderKL
+[2024-06-17 18:17] Loading 1 new model
+[2024-06-17 18:17] Prompt executed in 256.84 seconds
+[2024-06-17 20:24] got prompt
+[2024-06-17 20:24] Requested to load SDXL
+[2024-06-17 20:24] Loading 1 new model
+[2024-06-17 20:24] got prompt
+[2024-06-17 20:27] 100%|██████████████████████████████████████████████████████████████████████████████████████████| 10/10 [03:05<00:00, 16.61s/it]100%|██████████████████████████████████████████████████████████████████████████████████████████| 10/10 [03:05<00:00, 18.56s/it]
+[2024-06-17 20:27] Requested to load AutoencoderKL
+[2024-06-17 20:27] Loading 1 new model
+[2024-06-17 20:28] Prompt executed in 220.44 seconds
+[2024-06-17 20:28] Requested to load SDXL
+[2024-06-17 20:28] Loading 1 new model
+[2024-06-17 20:28] 
+Stopped server
